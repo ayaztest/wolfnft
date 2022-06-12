@@ -7,7 +7,9 @@ function SendMessage({ endOfMessagesRef }) {
 
   const sendMessage = (e) => {
     e.preventDefault()
+
     if (!message) return
+
     const Messages = Moralis.Object.extend('Messages')
     const messages = new Messages()
     messages

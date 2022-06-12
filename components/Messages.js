@@ -20,7 +20,7 @@ function Messages() {
         ),
     [],
     {
-      Live: true,
+      live: true,
     }
   )
   console.log(data)
@@ -32,7 +32,7 @@ function Messages() {
           style={{ marginLeft: 'auto', marginRight: 'auto' }}
         />
       </div>
-      <div>
+      <div className='space-y-10 p-4'>
         {data.map((message) => (
           <Message key={message.id} message={message} />
         ))}
