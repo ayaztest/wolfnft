@@ -13,7 +13,7 @@ function Header() {
             className='rounded-full'
             layout='fill'
             objectFit='cover'
-            src='https://ayazmedia.com/wp-content/uploads/2022/06/Screenshot-2022-05-12-194115.png'
+            src='https://ayazmedia.com/wp-content/uploads/2022/06/5d0f2947-7c24-44b3-9e08-86f3bec762b9-removebg-preview-e1654715044169.png'
           />
         </div>
         <div className='col-span-4  text-left lg:text-center'>
