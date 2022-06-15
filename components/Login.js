@@ -17,7 +17,7 @@ function login() {
           onClick={authenticate}
           className='bg-yellow-500 rounded-lg p-5 font-bold animate-pulse text-lg	'
         >
-          Login to Love Pot
+          Login to Ayaz Media
         </button>
       </div>
       <div className='w-full h-screen'>
